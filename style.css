@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  color: #4a90e2;
+}
+
+#sentence-container {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #eaf4ff;
+  border-radius: 5px;
+}
+
+#user-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+#start-btn {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#start-btn:hover {
+  background-color: #357abd;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+#results p {
+  font-size: 1.1em;
+}
+
+span {
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+/* Recently added code */
+
+/* Smooth fade animation for sentence and input */
+#sentence-container {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+/* Add smooth transitions for button hover */
+button {
+  transition: all 0.2s ease-in-out;
+}
